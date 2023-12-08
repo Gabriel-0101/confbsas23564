@@ -1,0 +1,160 @@
+html {
+    min-height: 100%;
+    position: relative;
+  }
+  body {
+    margin: 0;
+    margin-bottom: 40px;
+  } */
+
+  /* REVISAR BORDE BLANCO DEBAJO DEL FOOTER */
+  footer {
+    position: absolute;
+    /* margin-top: 100%; */
+
+    margin-bottom: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+
+/* *************************** */
+
+.menu {
+    position: sticky;
+    top: 0px;
+}
+
+.textoChico {
+    font-size: .7rem;
+}
+
+.textoMed {
+    font-size: .9rem;
+}
+
+.bgHover:hover {
+    background-color: darkslategrey;
+}
+
+.bg2Hover:hover {
+    background-color: silver;
+}
+
+.card:hover {
+    box-shadow: 0 0 15px rgb(152, 170, 187);
+}
+
+.botones a {
+    padding: 0 .125rem;
+    font-size: .7rem;
+    font-size: .7rem;
+    font-weight: bold;
+}
+
+
+.dataOradores h5 {
+    font-size: 1.1rem;
+}
+
+.dataOradores p {
+    font-size: .7rem;
+}
+
+.bgGrisOscuro {
+    background: rgb(51, 50, 51);
+}
+
+.oscureceImagen {
+    filter: brightness(50%);
+}
+
+.tamanioLogo {
+    width: 15%;
+    min-width: 80px;
+    margin-left: 3rem;
+    margin-right: .75rem;
+
+}
+
+.textoLink {
+    color: black;
+    text-decoration: underline;
+}
+
+.bg-menuInf {
+    background-color: rgb(26, 37, 37);
+}
+
+.datosOrador {
+    width: 20rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem; 
+    font-size: .9rem;
+    padding: .25rem;
+    padding-left: .5rem;
+    /* border-color: lightgrey;  */
+    border: .5px solid lightgrey;
+    border-radius: .25rem;
+}
+
+.datosOrador:hover {
+    box-shadow: 0 0 5px rgb(152, 170, 187);
+}
+
+.datosOrador:focus {
+    /* background-color: lightgray; */
+    /* border: none !important; */
+    background-color: rgb(217, 231, 248) !important;    
+}
+
+.temaOrador {
+    width: 42rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    /* margin-bottom: 1rem;  */
+    font-size: .9rem;
+    padding: .25rem;
+    padding-left: .5rem;
+    /* border-color: lightgrey;  */
+    border: .5px solid lightgrey;
+    border-radius: .25rem;
+}
+
+.temaOrador:hover {
+    box-shadow: 0 0 5px rgb(152, 170, 187);
+}
+
+.temaOrador:focus {
+    background-color: rgb(217, 231, 248) !important;    
+}
+
+.textoRecuerda {
+    font-size: .7rem;
+    padding: 1rem;
+}
+
+.btnVerdeClaro {
+    background: rgb(151, 201, 62);
+}
+
+.btnVerdeClaro:hover {
+    background: rgb(119, 167, 36);
+}
+
+.cajaCard {
+    border-radius: 0%;
+}
+
+.cajaCard:hover {
+    box-shadow: 0 0 5px rgb(152, 170, 187);
+    cursor: pointer; 
+    background-color: rgb(247, 247, 247) !important;   
+}
+
+.cajaCard:focus {
+    /* background-color: lightgray; */
+    /* border: none !important; */
+    background-color: rgb(247, 247, 247) !important;   
+}
